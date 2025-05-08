@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply antialiased text-gray-800;
+}
+
+@media print {
+  @page {
+    margin: 0.5in;
+    size: letter portrait;
+  }
+  
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .page-break-before {
+    page-break-before: always;
+  }
+}
+
+/* Add visual separation between pages in preview */
+@media screen {
+  body {
+    @apply bg-gray-100;
+  }
+}
