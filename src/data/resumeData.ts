@@ -140,7 +140,6 @@ export const resumeData: ResumeData = {
       name: 'Youra',
       description: 'A full-stack kindness-sharing mobile app where users can post, claim, and fulfill Random Acts of Kindness (RAKs), earning aura points as they contribute to the community. This is an app that I am currently working on. Right now I have deployed to TestFlight to iron out some bugs, fine tune the UI and do some user testung. If you would like to see the app in action, please let me knwo and I would be more than happy to add you to the test suit by email.',
       technologies: ['Flutter', 'Django', 'Django REST Framework', 'PostgreSQL', 'WebSockets', 'Docker'],
-
       liveDemo: 'https://youra.com.au',
       highlights: [
         'Implemented real-time chat using WebSockets and Django Channels',
@@ -152,26 +151,26 @@ export const resumeData: ResumeData = {
     },
     
     {
-      name: 'AI-Powered Code Review Tool',
-      description: 'Machine learning tool that automates code review process',
-      technologies: ['Python', 'TensorFlow', 'FastAPI', 'React', 'TypeScript'],
-      github: 'https://github.com/alexjohnson/ai-code-review',
+      name: 'Personal Portfolio',
+      description: 'HTML, CSS and JS personal portfolio. This was my first ever project for She Codes and was a great way to showcase my growing skills in HTML, CSS and JS.',
+      technologies: ['HTML', 'CSS', 'Javascript'],
+      liveDemo: 'https://mackennadries.github.io/html/homepage.html',
       highlights: [
-        'Reduced code review time by 40% for team of 20 developers',
-        'Implemented custom ML models for code quality analysis',
-        'Built REST API serving 100K requests per day'
+        'Completely custom built my html/css portfolio, with images all created by me in adobe illustrator',
+        'Leveraged code creativity to build a unique and intersting take on a traditional portfolio ',
+        'Incorporated interactive elements to engage users and showcase my work dynamically'
       ]
     },
     {
-      name: 'Cloud Cost Optimizer',
-      description: 'AWS cost optimization tool with automated resource scheduling',
-      technologies: ['AWS Lambda', 'Terraform', 'Node.js', 'React', 'DynamoDB'],
-      github: 'https://github.com/alexjohnson/cloud-cost-optimizer',
-      liveDemo: 'https://cost-optimizer.example.com',
+      name: 'Prism',
+      description: 'A web app to connect role models and opportunities in tech through a platform of colaboration and inclusivity. This was a group project through She Codes in which I worked on both the backend and the front end.  ',
+      technologies: ['React', 'Django', 'Netlify', 'Heroku', 'AWS'],
+      liveDemo: 'https://reliable-lokum-529eef.netlify.app/',
       highlights: [
-        'Reduced cloud infrastructure costs by 35%',
-        'Automated resource scheduling for non-production environments',
-        'Built dashboard for cost analysis and forecasting'
+        'Collaborated on a full-stack web application, contributing to both front-end and back-end development',
+        'Built dynamic user interfaces with HTML, CSS, and JavaScript, focusing on seamless user experience',
+        'Developed server-side logic using Python and Django, ensuring smooth integration with the front-end',
+        'Implemented SW Bucket for efficient image uploads, ensuring quick and reliable storage management'
       ]
     }
   ]
